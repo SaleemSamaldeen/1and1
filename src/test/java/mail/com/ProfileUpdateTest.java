@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @TmsLink("TC01")
 @Severity(SeverityLevel.CRITICAL)
 @Tag("E2ETest")
-class ProfileUpdateTest extends TestSetup {
+public class ProfileUpdateTest extends TestSetup {
 
     private HomePage homePage;
 
